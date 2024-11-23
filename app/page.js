@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="description" content="Trang giới thiệu sản phẩm của tôi" />
       </Head>
       <main>
-        <h1>Danh sách sản phẩ</h1>
+        <h1>Danh sách sản phẩm</h1>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {products.map((product) => (
             <div key={product.id} style={{ margin: '20px', textAlign: 'center' }}>
